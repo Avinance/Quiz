@@ -1,0 +1,57 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  /* Style the main heading */
+  #main-h {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Style the questions heading */
+  #questions-h {
+    margin-top: 20px;
+  }
+  
+  /* Style each question and answer section */
+  .questions {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .questions input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Style the submit button */
+  .submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the results section */
+  #results-h {
+    margin-top: 20px;
+  }
+  
+  #results {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  

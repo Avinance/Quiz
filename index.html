@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="quiz.css"> <!-- Updated CSS file reference -->
+    <title> Quiz</title>
+  </head>
+  <body>
+    <h1 id="main-h">General Quiz</h1>
+    <h2 id="questions-h">Questions</h2>
+
+    <p class="questions" id="question1">
+      1- Who is the Father of Logic?</p>
+    <input type="radio" name="answer1" value="wrong">Plato
+    <input type="radio" name="answer1" value="correct">Aristotle
+    <input type="radio" name="answer1" value="wrong">Socrates
+    <hr>
+
+    <p class="questions" id="question2">
+      2- Who said "God is dead"?</p>
+    <input type="radio" name="answer2" value="wrong">Agustine Comte 
+    <input type="radio" name="answer2" value="wrong">Derrida
+    <input type="radio" name="answer2" value="correct">Jean Paul Satre
+    <hr>
+
+    <p class="questions" id="question3">
+      3- How many colors are there in rainbow?</p>
+    <input type="radio" name="answer3" value="wrong">Eight
+    <input type="radio" name="answer3" value="wrong">Five
+    <input type="radio" name="answer3" value="correct">Seven
+    <hr>
+
+    <p class="questions" id="question4">
+      4- Which is the largest the human organ?</p>
+    <input type="radio" name="answer4" value="wrong">Intestine
+    <input type="radio" name="answer4" value="correct">Skin
+    <input type="radio" name="answer4" value="wrong">Liver
+    <hr>
+
+    <p class="questions" id="question5">
+      5- Which is the biggest mammal in the world?</p>
+    <input type="radio" name="answer5" value="correct">Blue whale 
+    <input type="radio" name="answer5" value="wrong">Elephant
+    <input type="radio" name="answer5" value="wrong">Giraffe
+    <br>
+    <br>
+
+    <button class="submit" onclick="return getResults();" type="submit">
+      Check Your Answers</button>
+
+    <h2 id="results-h">Results</h2>
+    <p id="results"></p>
+
+    <script type="text/javascript" src="quiz.js"> <!-- Updated JavaScript file reference -->
+    </script>
+  </body>
+</html>
